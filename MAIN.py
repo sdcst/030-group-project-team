@@ -1,8 +1,10 @@
 ##This will be the mainline code
-import sys
+import settei
 import area
 
-sys.title()
-
-while userD = 1:
-    sys.main
+settei.title()
+userD=1
+while userD == 1:
+    settei.preOptions()
+    settei.selection()
+    userD = settei.userDs()
