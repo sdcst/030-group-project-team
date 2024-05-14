@@ -1,7 +1,5 @@
 import area 
 
-def selection():
-    input 
 def title():
     print("placeholder")
 def userDs():
@@ -17,10 +15,12 @@ def userDs():
     else:
         print("Error: invalid input, will assume \"no\".")
         return e
-def preOptions():
-    print("This calculator has the following functionalities:\n[1] Find the area of a square\n[2] placeholder")
+def selection():
+    print("This calculator has the following functionalities:\n[1] Find the area of a square\n[2] circle")
     uw = str(input("To select an option, enter the number associated with the option: "))
     if uw == "1":
         area.area()
+    elif uw == "2":
+        circumference.circumference()
     else:
         print("error: invalid input, try again")
