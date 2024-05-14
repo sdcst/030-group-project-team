@@ -1,0 +1,2 @@
+please run "MAIN.py" using your python interpreter.
+other files, such as "settei", are only function sets.
