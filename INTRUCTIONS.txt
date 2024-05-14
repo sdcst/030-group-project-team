@@ -1,2 +1,23 @@
 please run "MAIN.py" using your python interpreter.
 other files, such as "settei", are only function sets.
+
+
+
+
+kole made: main code core,   "settei" function set (which tell the main code core how to function, and calls modules),   chelp module,   title (with the help of linux's "figlet" command (probalby avaliable on other *nix systems))
+
+cristal made:  area of a square module, circumference module
+
+victoria made: 
+
+(the above is not fully updated)
+
+note: 
+this program is modular by design; it works by containering it's functions, and calls the functions on demand; each function is self-isolated and does not interfere with the mainline code.
+new "mini programs" can be easily added by modifying settei.selection to include it.
+it is split up into 3 main parts:
+the main code: the executable file, and tells which function to execute when.
+settei module: a set of core functions that includes functions that recieve input, and tell modules when to execute
+program modules: mini programs that get called by settei.selection; these are the programs that make up the calculator
+
+i wanted to clear screen, but it seems to include certain OS specific commands, which would not be optimal in a dev environment where one person is using macOS, one person using linux, and another using windows.
