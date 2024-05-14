@@ -1,6 +1,5 @@
 ##This will be the mainline code
 import settei
-import area
 
 settei.title()
 userD=1
