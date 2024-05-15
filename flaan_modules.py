@@ -32,3 +32,5 @@ def triconpute():
         print("That is a right triangle.")
     elif r == 3:
         print("The triangle is acute.")
+    elif r == 0:
+        print("The triangle is not possible.")
