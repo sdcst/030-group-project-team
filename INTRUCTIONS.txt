@@ -4,11 +4,11 @@ other files, such as "settei", are only function sets.
 
 
 
-kole made: main code core,   "settei" function set (which tell the main code core how to function, and calls modules),   chelp module,   title (with the help of linux's "figlet" command (probalby avaliable on other *nix systems))
+kole made: main code core,  "settei" function set (which tell the main code core how to function, and calls modules),  chelp module,  flaan_modules module,  title (with the help of linux's "figlet" command (probalby avaliable on other *nix systems))
 
-cristal made:  area of a square module, circumference module
+cristal made:  area of a square module,  circumference module,  perimeter module
 
-victoria made: 
+victoria made:  surface area module,  volume module
 
 (the above is not fully updated)
 
