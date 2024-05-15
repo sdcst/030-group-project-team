@@ -5,6 +5,7 @@ import chelp
 import surfacearea
 import volume
 import flaan_modules
+import perimeter
 
 def title():
     print("\n              _                            _        \n__      _____| | ___ ___  _ __ ___   ___  | |_ ___  \n\\ \\ /\\ / / _ \\ |/ __/ _ \\| '_ ` _ \\ / _ \\ | __/ _ \\ \n \\ V  V /  __/ | (_| (_) | | | | | |  __/ | || (_) | \n  \\_/\\_/ \\___|_|\\___\\___/|_| |_| |_|\\___|  \\__\\___/ \n                                                    \n           _            _       _             \n  ___ __ _| | ___ _   _| | __ _| |_ ___  _ __ \n / __/ _` | |/ __| | | | |/ _` | __/ _ \\| '__|\n| (_| (_| | | (__| |_| | | (_| | || (_) | |   \n \\___\\__,_|_|\\___|\\__,_|_|\\__,_|\\__\\___/|_|   \n                                              ")
@@ -25,7 +26,7 @@ def userDs():
 def selection():
     done = 0
     while done == 0:
-        print("This calculator has the following functionalities:\n[0] help\n[1] Find the area of a square\n[2] find surface area of cube or sphere\n[3] find volume of a cube\n[4] find if a triangle is acute, right, or obtuse using it's sides\n[e] exit")
+        print("This calculator has the following functionalities:\n[0] help\n[1] Find the area of a square\n[2] find surface area of cube or sphere\n[3] find volume of a cube\n[4] find if a triangle is acute, right, or obtuse using it's sides\n[5] find the perimeter of a rectangle, triangle, or circle\n[e] exit")
         uw = str(input("To select an option, enter the number associated with the option: "))
         if uw == "0":
             chelp.chelp()
@@ -41,6 +42,9 @@ def selection():
             done = 1
         elif uw == "4":
             flaan_modules.triconpute()
+            done = 1
+        elif uw == "5":
+            perimeter.perimeter()
             done = 1
         elif uw == "e":
             print("oki doki, bye bye")

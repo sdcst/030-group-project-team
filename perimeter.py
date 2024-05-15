@@ -1,7 +1,7 @@
 def perimeter():
     done = 0
     while done == 0:
-        p=input("What shape do you want to calculate the perimeter of? \n(rectangle/triangle/circle) ")
+        p=input("What shape do you want to calculate the perimeter of? \n(\"rectangle\" or \"triangle\" or \"circle\"): ")
         if p=="rectangle"or p=="Rectangle":
             rectangle()
             done=1
