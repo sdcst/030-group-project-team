@@ -1,14 +1,14 @@
 def perimeter():
     done = 0
     while done == 0:
-        p=input("What shape do you want to calculate the perimeter of? \n(\"rectangle\" or \"triangle\" or \"circle\"): ")
-        if p=="rectangle"or p=="Rectangle":
+        p=input("What shape do you want to calculate the perimeter of? \n(\"[r] rectangle\" or \"[t] triangle\" or \"[c] circle\"): ")
+        if p=="rectangle"or p=="Rectangle" or p== "r" or p=="R":
             rectangle()
             done=1
-        elif p=="triangle"or p=="Triangle":
+        elif p=="triangle"or p=="Triangle" or p=="t" or p=="T":
             triangle()
             done=1
-        elif p=="circle"or p=="Circle":
+        elif p=="circle"or p=="Circle" or p=="c" or p== "C":
             circle()
             done=1
         else:
