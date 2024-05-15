@@ -23,7 +23,7 @@ def rectangle():
             y = float(y)
             z=(2*x)+(2*y)
             z=round(z,2)
-            print(f"The area is {z}")
+            print(f"The perimeter is {z}")
             done = 1
         except:
             print("error: not a number")
@@ -40,7 +40,7 @@ def triangle():
             z = float(z)
             a= x+y+z
             b=round(a,2)
-            print(f"The area is {b}")
+            print(f"The perimeter is {b}")
             done = 1
         except:
             print("error: not a number")
@@ -54,7 +54,7 @@ def circle():
             x = float(x)
             y=2*math.pi*x
             z=round(y,2)
-            print(f"The area is {z}")
+            print(f"The perimeter is {z}")
             done = 1
         except:
             print("error: not a number")
