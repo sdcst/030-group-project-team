@@ -13,14 +13,6 @@ def area():
         except:
             print("error: not a number")
         
-            
-           
-
-def volume():
-    x=input()
-    pass
-        
 
 if __name__ == "__main__":
     area()
-    volume()
