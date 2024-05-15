@@ -1,9 +1,9 @@
 import math
 
 def surfacearea():
-    shape=input("Which shape' surface are do you want to find? cube [c] or sphere [s]: ")
     done=0
     while done==0:
+        shape=input("Which shape's surface are do you want to find? cube [c] or sphere [s]: ")
         try:
       
          if  shape == "cube" or shape == "Cube" or shape == "c" or shape == "C":

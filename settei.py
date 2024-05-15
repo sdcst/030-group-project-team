@@ -14,7 +14,7 @@ def userDs():
     a = str(input("Do you want to continue using the caluculator? (Y or N): "))
     e = 0
     if a == "Y" or a == "y":
-        print("\n\n\n\n\n\n\n\n\n\n")
+        print("\n"*50)
         e = 1
         return e
     elif a == "N" or a == "n":
@@ -28,6 +28,7 @@ def selection():
     while done == 0:
         print("This calculator has the following functionalities:\n[0] help\n[1] Find the area of a square\n[2] find surface area of cube or sphere\n[3] find volume of a cube\n[4] find if a triangle is acute, right, or obtuse using it's sides\n[5] find the perimeter of a rectangle, triangle, or circle\n[e] exit")
         uw = str(input("To select an option, enter the number associated with the option: "))
+        print("\n"*100)
         if uw == "0":
             chelp.chelp()
             done = 1
@@ -50,7 +51,8 @@ def selection():
             print("oki doki, bye bye")
             exit()
         else:
-            print("\n\n\n\n\n\n\n\n\n\n\n\n\n\nerror: invalid input, try again")
+            print("\n"*50)
+            print("error: invalid input, try again")
             time.sleep(1)
-            print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
+            print("\n"*50)
 
