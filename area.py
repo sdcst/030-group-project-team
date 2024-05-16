@@ -13,5 +13,6 @@ def area():
         except:
             print("error: not a number")
         
-            
-           
+
+if __name__ == "__main__":
+    area()
