@@ -34,3 +34,24 @@ def triconpute():
         print("The triangle is acute.")
     elif r == 0:
         print("The triangle is not possible.")
+
+def deltaV():
+    done=0
+    import math
+    print("This is a simple deltaV calculator, it assumes that the target spacecraft is in a vaccuum, \nfiring engines in a constant direction, and is not affected by an external SOI.\n")
+    while done == 0:
+        try:
+            isp = float(input("please enter the in-vacuum thrust ISP (specific impulse) of the engine (m/s): "))
+            mass_m0 = float(input("please enter the initial mass of the spacecraft before burn time (kg): "))
+            mass_m1 = float(input("please enter the final mass of the spacecraft after fuel is expent (kg): "))
+            if mass_m0 > mass_m1:
+                Δv = math.log(mass_m0/mass_m1)
+                Δv = math.log(mass_m0/mass_m1)
+                Δv = Δv * isp
+                print(f"\nthe change in velocity (Δv) of the spacecraft is {round(Δv,4)} m/s.\n")
+                done=1
+            elif mass_m0 <= mass_m1:
+                print("error: the initial mass must be greater than the end mass")
+        except:
+            print("error: you have entered an invalid input.")
+        
