@@ -1,5 +1,3 @@
-import math
-
 def tax():
     a=input("Which type of thing did you buy? food [f] or other [o]: ")
     done=0

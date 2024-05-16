@@ -1,4 +1,3 @@
-
 def volume():
     done = 0
     while done == 0:
@@ -15,4 +14,3 @@ def volume():
             done = 1
         except:
             print("error: not a number")
-  

@@ -1,6 +1,5 @@
-import math
-
 def surfacearea():
+    import math
     done=0
     while done==0:
         shape=input("Which shape's surface are do you want to find? cube [c] or sphere [s]: ")
@@ -25,5 +24,3 @@ def surfacearea():
 
 if __name__ == "__main__":
     surfacearea()
-
-    
