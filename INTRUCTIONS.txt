@@ -10,7 +10,7 @@ cristal made:  area of a square module,  circumference module,  perimeter module
 
 victoria made:  surface area module,  volume module,  tax module,  halflife module,  simpleinterest module,  compound interest module
 
-(the above is not fully updated)
+(the above is not fully updated, please update if incorrect)
 
 note: 
 this program is modular by design; it works by containering it's functions, and calls the functions on demand; each function is self-isolated and does not interfere with the mainline code.
