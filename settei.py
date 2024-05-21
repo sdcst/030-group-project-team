@@ -67,6 +67,9 @@ def selection():
         elif uw == "10":
             simpleinterest.simple_interest()
             done = 1
+        elif uw == "11":
+            GDP.GDP()
+            done = 1 
         elif uw == "e":
             print("oki doki, bye bye")
             exit()
