@@ -8,7 +8,7 @@ kole made: main code core,  "settei" function set (which tell the main code core
 
 cristal made:  area of a square module,  circumference module,  perimeter module
 
-victoria made:  surface area module,  volume module
+victoria made:  surface area module,  volume module,  tax module 
 
 (the above is not fully updated)
 
@@ -19,5 +19,3 @@ it is split up into 3 main parts:
 the main code: the executable file, and tells which function to execute when.
 settei module: a set of core functions that includes functions that recieve input, and tell modules when to execute
 program modules: mini programs that get called by settei.selection; these are the programs that make up the calculator
-
-i wanted to clear screen, but it seems to include calling certain OS specific commands, which would not be optimal in a dev environment where one person is using macOS, one person using linux, and another using windows.
