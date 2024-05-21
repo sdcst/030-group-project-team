@@ -4,6 +4,7 @@ def GDP():
         g=input("Which approach do you wish to progress? \n(\"[e] expenditure\" or \"[i] income\" or \"[p] production\"): ")
         if g=="E"or g=="e":
             done=1
+            ExpenditureApproach()
         elif g=="I"or g=="i":
             IncomeApproach()
             done=1
@@ -36,28 +37,31 @@ def IncomeApproach():
     while done == 0:
         x=input("Enter the national income: ")
         y=input("Enter the sales taxes: ")
-        z=input("Enter side C: ")
+        z=input("Enter the depreciation: ")
+        w=input("Enter the net foreign factor income: ")
         try:
             x = float(x)
             y = float(y)
             z = float(z)
-            a= x+y+z
-            b=round(a,2)
-            print(f"The perimeter is {b}")
+            w = float(w)
+            a= x+y+z+w
+            a=round(a,2)
+            print(f"The GDP is {a}")
             done = 1
         except:
             print("error: not a number")
 
-import math
 def ProductionApproach():
     done = 0
     while done == 0:
-        x=input("Enter the radius of the circle: ")
+        x=input("Enter the gross value of output: ")
+        y=input("Enter the intermediate consumption: ")
         try:
             x = float(x)
-            y=2*math.pi*x
-            z=round(y,2)
-            print(f"The perimeter is {z}")
+            y = float(y)
+            z = x-y
+            z = round(z,2)
+            print(f"The GDP is {z}")
             done = 1
         except:
             print("error: not a number")
