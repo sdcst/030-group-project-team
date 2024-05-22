@@ -37,7 +37,7 @@ def selection():
         if uw == "0":
             chelp.chelp()
             done = 1
-        if uw == "1":
+        elif uw == "1":
             area.area()
             done = 1
         elif uw == "2":

@@ -4,9 +4,9 @@ other files, such as "settei", are only function sets.
 
 
 
-kole made: main code core,  "settei" function set (which tell the main code core how to function, and calls modules),  chelp module,  triconpute,  rocket deltaV,  title,  patching other's code
+kole made: main code core,  "settei" function set (which tell the main code core how to function, and calls modules),  chelp module (except for GDP help),  triconpute,  rocket deltaV,  title,  patching other's code
 
-cristal made:  area of a square module,  circumference module,  perimeter module,  GDP module
+cristal made:  area of a square module,  circumference module,  perimeter module,  GDP module, chelp.GDP help 
 
 victoria made:  surface area module,  volume module,  tax module,  halflife module,  simpleinterest module,  compound interest module
 
