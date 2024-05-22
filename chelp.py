@@ -4,5 +4,7 @@ def chelp():
         GDPhelp
 
 def GDPhelp():
-    print("please enter how to use GDP here")
+    print("There are 3 approaches that you could use for calculating GDP: \nExpenditure Approach, \nIncome Approach, \nProduction/Value-Added Approach. \nBy following the instruction that is provided in the calculator, \nyou will be able to calculate the value of GDP using any of the approaches. ")
 
+if __name__ == "__main__":
+    GDPhelp()
