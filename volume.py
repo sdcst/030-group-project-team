@@ -3,7 +3,7 @@ def volume():
     while done == 0:
         x=input("What is the width? ")
         y=input("What is the length? ")
-        h=input("What bis the height? ")
+        h=input("What is the height? ")
         try:
             x = float(x)
             y = float(y)
@@ -14,3 +14,6 @@ def volume():
             done = 1
         except:
             print("error: not a number")
+
+if __name__ == "__main__":
+    volume()

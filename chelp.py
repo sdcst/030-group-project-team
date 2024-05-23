@@ -1,3 +1,4 @@
+import time
 def chelp():
     done = 0
     while done == 0:
@@ -16,6 +17,7 @@ def chelp():
             done = 1
         else:
             print("error: you did not enter a valid entry.")
+            time.sleep(1)
 def end():
     input("(press enter to continue: )")
 def GDPhelp():
