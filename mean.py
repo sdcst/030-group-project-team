@@ -15,7 +15,7 @@ def mean():
         if isfloat(x):
             x = float(x)
             num.append(x)
-        elif x.lower() == "exit":
+        elif x.lower() == "exit" and num != []:
             for y in range(len(num)):
                 total += num[y]
             mean = total/len(num)
