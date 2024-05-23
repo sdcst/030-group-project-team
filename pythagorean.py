@@ -1,5 +1,6 @@
 import math
 def pythagorean():
+    print("This calculator will help you find the hypotenus of a triangle :)\nplease input the value of the other 2 sides of the triangle in the question that was provided below.")
     done = 0
     while done == 0:
         try:
