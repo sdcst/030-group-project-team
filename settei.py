@@ -33,7 +33,7 @@ def userDs():
 def selection():
     done = 0
     while done == 0:
-        print("This calculator has the following functionalities:\n[0] help\n[1] Find the area of a shape\n[2] find surface area of cube or sphere\n[3] find volume of a cube\n[4] find if a triangle is acute, right, or obtuse using it's sides\n[5] find the perimeter of a rectangle, triangle, or circle\n[6] find the Δv of a rocket in a vacuum\n[7] tax calculator for BC, Canada\n[8] Compound Interest Calculator\n[9] Halflife (chemestry) Calculator\n[10] Simple Interest Calculator\n[11] GDP calculator\n[12] find average of a set of numbers\n[13] pythagorean theorum\n[e] exit")
+        print("This calculator has the following functionalities:\n[0] help\n[1] Find the area of a shape\n[2] find surface area of cube or sphere\n[3] find volume of a cube\n[4] find if a triangle is acute, right, or obtuse using it's sides\n[5] find the perimeter of a rectangle, triangle, or circle\n[6] find the Δv of a spacecraft w/ propulsion in a vacuum\n[7] tax calculator for BC, Canada\n[8] Compound Interest Calculator\n[9] Halflife (chemestry) Calculator\n[10] Simple Interest Calculator\n[11] GDP calculator\n[12] find average of a set of numbers\n[13] pythagorean theorum\n[e] exit")
         uw = str(input("To select an option, enter the number associated with the option: "))
         print("\n"*100)
         if uw == "0":
