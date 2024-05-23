@@ -16,15 +16,11 @@ def GDP():
 def ExpenditureApproach():
     done = 0
     while done == 0:
-        c=input("Enter the private consumption(C): ")
-        i=input("Enter the investment in capital(I): ")
-        g=input("Enter the government spending(G): ")
-        nx=input("Enter the net export(nx): ")
         try:
-            c=float(c)
-            i=float(i)
-            g=float(g)
-            nx=float(nx)
+            c=float(input("Enter the private consumption(C): "))
+            i=float(input("Enter the investment in capital(I): "))
+            g=float(input("Enter the government spending(G): "))
+            nx=float(input("Enter the net export(nx): "))
             a=c+i+g+nx
             a=round(a,2)
             print(f"The GDP is {a}")
@@ -35,15 +31,11 @@ def ExpenditureApproach():
 def IncomeApproach():
     done = 0
     while done == 0:
-        x=input("Enter the national income: ")
-        y=input("Enter the sales taxes: ")
-        z=input("Enter the depreciation: ")
-        w=input("Enter the net foreign factor income: ")
         try:
-            x = float(x)
-            y = float(y)
-            z = float(z)
-            w = float(w)
+            x=float(input("Enter the national income: "))
+            y=float(input("Enter the sales taxes: "))
+            z=float(input("Enter the depreciation: "))
+            w=float(input("Enter the net foreign factor income: "))
             a= x+y+z+w
             a=round(a,2)
             print(f"The GDP is {a}")
@@ -54,11 +46,9 @@ def IncomeApproach():
 def ProductionApproach():
     done = 0
     while done == 0:
-        x=input("Enter the gross value of output: ")
-        y=input("Enter the intermediate consumption: ")
         try:
-            x = float(x)
-            y = float(y)
+            x=float(input("Enter the gross value of output: "))
+            y=float(input("Enter the intermediate consumption: "))
             z = x-y
             z = round(z,2)
             print(f"The GDP is {z}")
