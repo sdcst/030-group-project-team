@@ -8,6 +8,7 @@ def isfloat(number):
 
 def mean():
     num = []
+    print("This calculator will help you calculate the mean from a set of numbers\nEnter as many numbers as you want and type exit when you have finished! :D")
     while True:
         total = 0
         y = 0
